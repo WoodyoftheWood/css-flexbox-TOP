@@ -21,15 +21,23 @@ body {
 
 .front-info {
     display: flex;
+    justify-content: center;
+    column-gap: 25px;
 }
 
 .middle-info {
     display: flex;
+    justify-content: center;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
 }
 
 .bottom-signup {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .footer {
@@ -47,13 +55,82 @@ body {
     padding-top: 25px;
 }
 
+.front-info {
+    margin-top: 80px;
+}
+
+.words-signup {
+    width: 280px;
+    height: 120px;
+}
+
+.title-text {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.image-holder {
+    background-color: rgb(142, 139, 139);
+}
+
 .logo {
     font-size: larger;
     font-weight: bold;
 }
 
+.middle-info {
+    padding: 80px;
+    column-gap: 40px;
+}
+
+.sample-image {
+    border: rgb(0, 162, 255) solid 2px;
+    border-radius: 10px;
+    width: 90px;
+    height: 90px;
+}
+
+.grid {
+    width: 90px;
+    
+}
+
+.caption , .sub-text{
+    font-size: 13px;
+}
+
+.quote {
+    padding: 60px 200px;
+    background-color: rgb(191, 191, 191);
+}
+
+.quote-author {
+    text-align: right;
+    font-weight: bold;
+}
+
+.bottom-signup {
+    border: white solid 100px;
+    background-color: rgb(50, 98, 201);
+    padding: 50px;
+    color: white;
+}
+
+
 a {
     color: white;
     text-decoration: none;
     padding: 0 20px
+}
+
+button {
+    padding: 5px 20px;
+    border-radius: 6px;
+    color: white;
+    background-color:rgb(50, 98, 201);
+    border: none;
+}
+
+#bottom-signup {
+    border: white solid 1px;
 }
