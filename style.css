@@ -23,7 +23,18 @@ body {
     display: flex;
     justify-content: center;
     column-gap: 25px;
+    margin-top: 80px;
+    padding: 0 100px 0;
 }
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 7px;
+    min-width: 200px;
+    
+}
+
 
 .middle-info {
     display: flex;
@@ -55,9 +66,7 @@ body {
     padding-top: 25px;
 }
 
-.front-info {
-    margin-top: 80px;
-}
+
 
 .words-signup {
     width: 280px;
@@ -71,6 +80,13 @@ body {
 
 .image-holder {
     background-color: rgb(142, 139, 139);
+    width: 270px;
+    height: 145px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
 }
 
 .logo {
@@ -95,8 +111,17 @@ body {
     
 }
 
+.title-text, .sub-text {
+   
+
+}
+
 .caption , .sub-text{
     font-size: 13px;
+}
+
+.caption {
+    text-align: center;
 }
 
 .quote {
@@ -113,6 +138,8 @@ body {
     border: white solid 100px;
     background-color: rgb(50, 98, 201);
     padding: 50px;
+    margin: 100px 150px;
+    border: 0px;
     color: white;
 }
 
@@ -129,6 +156,12 @@ button {
     color: white;
     background-color:rgb(50, 98, 201);
     border: none;
+
+}
+
+#front-signup {
+    width: 90px;
+    height: 30px;
 }
 
 #bottom-signup {
