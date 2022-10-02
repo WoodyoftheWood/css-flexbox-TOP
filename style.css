@@ -127,6 +127,7 @@ body {
 .quote {
     padding: 60px 200px;
     background-color: rgb(191, 191, 191);
+    min-width: 300px;
 }
 
 .quote-author {
